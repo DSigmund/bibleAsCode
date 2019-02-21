@@ -3,7 +3,12 @@ function heaven () {
 }
 function earth () {
   var surface = 'water'
-  var lighting = true
+  this.isLight = function () {
+    return true
+  }
+  this.isDark = function () {
+    return false
+  }
   holySpirit(this.surface)
 }
 function holySpirit (where) {
