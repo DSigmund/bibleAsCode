@@ -1,12 +1,13 @@
+var daysPassed = 1
 function heaven () {
 
 }
 function earth () {
   var surface = 'water'
-  this.isLight = function () {
+  this.day = function () {
     return true
   }
-  this.isDark = function () {
+  this.night = function () {
     return false
   }
   holySpirit(this.surface)
